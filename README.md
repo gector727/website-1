@@ -1,4 +1,4 @@
-# Demo : https://gectorwebsite.vercel.app/
+## Demo : no chat logs https://gectorwebsite.vercel.app/
 
 ## to use : 
 ### ```git clone https://github.com/gector727/website-1```
