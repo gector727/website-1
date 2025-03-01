@@ -34,11 +34,11 @@
 
         async function sendMessage(userMessage) {
             try {
-                const response = await fetch('http://localhost:3000/v1/chat/completions', {
+                const response = await fetch('YOUR_OWN_APIENDPOINT/v1/chat/completions', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': 'Bearer gector',
+                        'Authorization': 'Bearer YOUR_OWN_APIKEY',
                     },
                     body: JSON.stringify({
                         model: 'gector-3',
