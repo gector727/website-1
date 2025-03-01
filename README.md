@@ -1,4 +1,4 @@
-## Demo : no chat logs https://gectorwebsite.vercel.app/
+## Demo : no chat logs (the API endpoint is not 24/7 and no guarantee to be always online) https://gectorwebsite.vercel.app/
 
 ## to use : 
 1. ```git clone https://github.com/gector727/website-1```
