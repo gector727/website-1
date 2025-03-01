@@ -5,18 +5,8 @@
 2. ```cd website-1```
 3. ```change YOUR_API_ENDPOINT and YOUR_API_KEY to your own API Endpoint and API Key in chat.html```
 3.1 ```example with values :
-   const response = await fetch('YOUR_API_ENDPOINT/v1/chat/completions', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer YOUR_API_KEY',
-                    },
-const response = await fetch('http://localhost:3000/v1/chat/completions', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer gector',
-                    },```  
+   YOUR_API_ENDPOINT : http://localhost:3000
+   YOUR_API_KEY : gector```  
 5. ```open the index.html and play with it```
 ![Screenshot 2025-03-01 210233](https://github.com/user-attachments/assets/329786a3-caab-4b7d-b18d-c0bccb60dd50)
 ![Screenshot 2025-03-01 210246](https://github.com/user-attachments/assets/e657ce11-1e50-4d77-b660-4913d1d96de1)
