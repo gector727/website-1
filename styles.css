@@ -4,6 +4,9 @@ body {
     color: #e0e0e0;
     margin: 0;
     padding: 0;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
 }
 
 header {
@@ -13,7 +16,15 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-size: 0.8em;
+    margin-top: auto;
+    width: 100%;
+}
 nav {
     display: flex;
     gap: 10px;
@@ -34,8 +45,9 @@ nav a:hover {
 }
 
 main {
-    padding: 15px; 
+    padding: 15px;
     text-align: center;
+    flex-grow: 1;
 }
 
 .profile-grid {
