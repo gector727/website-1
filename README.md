@@ -4,7 +4,7 @@
 1. ```git clone https://github.com/gector727/website-1```
 2. ```cd website-1```
 3. ```change YOUR_API_ENDPOINT and YOUR_API_KEY and MODEL_NAME to your own API Endpoint and API Key and Model Name in chat.html```
-3.1 ```example with values :
+4. ###```example with values :
    YOUR_API_ENDPOINT : http://localhost:3000
    YOUR_API_KEY : gector
    MODEL_NAME : gector-3```  
